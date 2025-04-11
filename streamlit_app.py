@@ -32,7 +32,7 @@ app_mode = st.sidebar.selectbox('Select Page',['Home','Prediction']) #two pages
 
 if app_mode=='Home':
     st.title('LOAN PREDICTION :')
-    st.image(r"C:\Users\jjric\Documents\loan_image.jpg")
+    st.image("loan_image.jpg")
     st.markdown('Dataset :')
     data=pd.read_csv(r"C:\Users\jjric\Documents\test.csv")
     st.write(data.head())
